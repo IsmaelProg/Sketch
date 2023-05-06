@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.container{
+    
+    display:grid;
+    background-color: grey;
+    border:5px solid cornflowerblue;
+    width: 500px;
+    height: 500px;
+    
+}
+
+.square {
+    
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.prueba {
+    background-color: rgb(238, 0, 0);
+}
+
+button {
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(73, 114, 191);
+    border: 5px solid cornflowerblue;
+    background-color: rgb(205, 188, 166);
+    
+}
+
+.pequeños {
+    width: 16px;
+    height: 16px;
+    background-color: rgb(255, 255, 255);
+}
